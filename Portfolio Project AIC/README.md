@@ -8,4 +8,10 @@ Brief overview:
 
 3. Visuals: plots efficient frontier (Risk vs Return) and historical returns of weighted portfolio. 
 
-4. Analysis: calculates historical metrics including value at risk, max drawdown, max drawdown duration, ...
+4. Analysis: calculates and colour-codes historical metrics including value at risk, max drawdown, max drawdown duration, ...
+
+5. Data: loads data and fundamentals for models from yahoo finance and LSEG refinitive workspace, pulls login data from external .json file
+
+6. Engine: manages baskets and the combined portfolio
+
+7. Main: here I access and run my files
