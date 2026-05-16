@@ -8,4 +8,4 @@ Overall structure:
 4. eval has methods of evaluation for each model, including Diebold Marino Tests
 5. loader takes data from the lseg api, including data cleaning
 6. main is where I run all files, and plot and compare results
-7. testing includes tests for stationarity in the price data, as well as arch effects using ADF, KPSS, PP
+7. testing includes tests for stationarity in the price data, as well as arch effects. Tests used: ADF, KPSS, PP, Ljung-Box, Engle Arch
