@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Cache & compiled
+*.pkl
+*.nbc
+*.nbi
+*.pyc
+
+# Sensitive configs / credentials
+*.env
+.env*
+*config*.json
+*secret*
+*credential*
+*login*
+*password*
+*token*
+*api_key*
+lseg-data.config.json
+
+# Data files (large/raw)
+*.csv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
